@@ -31,6 +31,8 @@ export default function Home() {
         <p className="text-[6.4vw] text-white font-bold text-center">Aman dan nyaman di jalan!</p>
         <p className="text-white text-center text-[3.3vw]">Dapatkan perlindungan untuk motor kesayanganmu</p>
       </div>
+
+
       <div className="w-full bg-white relative">
         <div className="absolute left-[5.5vw] top-[2.7vw] ">
           <p className="text-[5.5vw] font-extrabold ">PREMI MULAI DARI</p>
@@ -54,15 +56,29 @@ export default function Home() {
           >
             <p className="text-[7vw] font-bold text-red-700 -ml-11 -mt-5">Rp</p>
             <p className="text-[8.5vw] font-bold text-red-700">50.000-an</p>
-          </motion.div>
+        </motion.div>
+        <div className="h-auto w-[37vw] absolute left-[5.5vw] top-[23vw]">
+          <a className="cursor-pointer" href="https://wa.me/082124744961">
+          
           <Image
-            src={"/images/lpasuransi/Illustration.png"}
-            alt="illustrasi-1"
-            width={0}
-            height={0}
-            sizes="100vw"
-            style={{ width: "100%", height: "auto" }}
-          />
+          src={"/images/lpasuransi/Button_Penawaran.png"}
+          alt="illustrasi-1"
+          width={0}
+          height={0}
+          sizes="100vw"
+          style={{ width: "100%", height: "auto" }}
+        />
+        </a>
+        </div>
+        <Image
+          src={"/images/lpasuransi/Illustration.png"}
+          alt="illustrasi-1"
+          width={0}
+          height={0}
+          sizes="100vw"
+          style={{ width: "100%", height: "auto" }}
+        />
+        
       </div>
 
 
