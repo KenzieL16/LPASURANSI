@@ -13,7 +13,7 @@ const Accordion = () => {
 
  return (
   <div className='w-10/12 bg-slate-200 rounded-xl p-5'>
-    <p className="text-[32px] font-bold">
+    <p className="text-[4.7vw] font-bold">
         Frequently Asked Questions
     </p>
     {data.map((item, index) => (
