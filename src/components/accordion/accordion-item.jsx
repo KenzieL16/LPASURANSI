@@ -8,7 +8,7 @@ const AccordionItem = ({ question, answer, isOpen, onClick }) => {
   return (
     <div className="wrapper">
       <button className={`question-container ${isOpen ? "active" : ""}`} onClick={onClick}>
-        <p className="question-content text-[4vw]">{question}</p>
+        <p className="question-content text-[4vw] sm:text-xl">{question}</p>
         <ChevronDownIcon className={`arrow w-6 h-6 ${isOpen ? "active" : ""}`} />
       </button>
 
@@ -17,7 +17,7 @@ const AccordionItem = ({ question, answer, isOpen, onClick }) => {
         className="answer-container"
         style={isOpen ? { height: contentHeight.current.scrollHeight } : { height: "0px" }}
       >
-        <p className="answer-content">{answer}</p>
+        <p className="answer-content text-[4vw] sm:text-xl">{answer}</p>
       </div>
     </div>
   );
