@@ -1,31 +1,28 @@
 const data = [
   {
-    question: "What are accordion components?",
+    question: "Proses pengiriman polis jadinya berapa lama?",
     answer:
-      "Accordion components are user interface elements used for organizing and presenting content in a collapsible manner. They typically consist of a header, content, and an expand/collapse action.",
+      "Untuk polis akan dikirimkan paling lambat 7-14 hari kerja. Apabila Bapak/Ibu belum menerima polis sampai dengan 14 hari kerja dapat menghubungi kami kembali.",
   },
   {
-    question: "What are they used for?",
+    question: "Jika terjadi kehilangan bagaimana Claimnya",
     answer:
-      "They are commonly employed in various contexts, including FAQs, product descriptions, navigation menus, settings panels, and data tables, to save screen space and provide a structured and user-friendly interface for presenting information or options.",
+      "Apabila terjadi Kerugian, Bapak/Ibu dapat menghubungi Whatsapp 0896-9600-6006 paling lambat 5 hari kalender setelah kejadian.",
   },
   {
-    question: "Accordion as a musical instrument",
+    question: "Berapa nominal claim yang didapatkan pada saat terjadi kehilangan?",
     answer:
-      "The accordion is a musical instrument with a keyboard and bellows. It produces sound by air passing over reeds when the player expands or compresses the bellows, used in various music genres.",
+      "Untuk penggantian TLO adalah Market Price (harga pasar) saat terjadinya kehilangan (harga motor second).  Untuk penggantinya adalah 90% dikembalikan dan 10% resiko sendiri.",
   },
   {
-    question: "Can I create an accordion component with a different framework?",
-    answer: "Yes of course, it is very possible to create an accordion component with another framework.",
-  },
-  {
-    question: "Accordion as a musical instrument",
+    question: "Berapa lama cair untuk claimnya?",
     answer:
-      "The accordion is a musical instrument with a keyboard and bellows. It produces sound by air passing over reeds when the player expands or compresses the bellows, used in various music genres.",
+      "Untuk pencairan Claim akan diproses paling lambat 30 hari kerja, setelah seluruh persyaratan kelengkapan dokumen terpenuhi (lengkap).",
   },
   {
-    question: "Can I create an accordion component with a different framework?",
-    answer: "Yes of course, it is very possible to create an accordion component with another framework.",
+    question: "Kalau saya asuransi selama 1 tahun tapi tidak terjadi apa-apa apakah uang preminya akan dikembalikan?",
+    answer:
+      "Apabila dalam jangka waktu 1 tahun tidak ada Claim, maka biaya premi selama 1 tahun tidak dikembalikan (hangus).",
   },
 ];
 
