@@ -201,11 +201,12 @@ export default function Home() {
             </div>
           </div>
         )}
+        <hr />
 
-        <div className="h-auto bg-slate-400 pb-7 relative">
+        {/* <div className="h-auto bg-slate-400 pb-7 relative">
           <br />
           <SwiperBeritaComponent sWidth={windowWidth} />
-        </div>
+        </div> */}
 
         <div className="w-full bg-red-700 h-auto pt-4 pb-8">
           <p className="text-center text-lg text-white font-bold">Hitung Premi</p>
