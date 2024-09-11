@@ -106,7 +106,7 @@ export default function Home() {
             <div className="h-auto w-[37vw] sm:w-[240px] md:w-[280px] left-[10px] top-[23vw] fixed z-10">
               <a
                 className="cursor-pointer"
-                href="https://wa.me/6281113703810?text=%2ANama%3A%2A%0A%2ADomisili%3A%2A%0A%2ANo%20Hp%20Aktif%3A%2A%0A%2AMerk%3A%2A%0A%2AType%3A%2A%0A%2ATahun%3A%2A%0A%2AMobil%2FMotor%3A%2A%0A%2ATerimakasih%2A"
+                href="https://wa.me/6289696006006?text=%2ANama%3A%2A%0A%2ADomisili%3A%2A%0A%2ANo%20Hp%20Aktif%3A%2A%0A%2AMerk%3A%2A%0A%2AType%3A%2A%0A%2ATahun%3A%2A%0A%2AMobil%2FMotor%3A%2A%0A%2ATerimakasih%2A"
               >
                 <Image
                   src={"/images/lpasuransi/Button_Penawaran.png"}
@@ -169,7 +169,7 @@ export default function Home() {
                 <div className="h-auto w-[37vw] sm:w-[240px] md:w-[280px] left-[30px] top-[23vw] fixed z-10">
                   <a
                     className="cursor-pointer"
-                    href="https://wa.me/6281113703810?text=%2ANama%3A%2A%0A%2ADomisili%3A%2A%0A%2ANo%20Hp%20Aktif%3A%2A%0A%2AMerk%3A%2A%0A%2AType%3A%2A%0A%2ATahun%3A%2A%0A%2AMobil%2FMotor%3A%2A%0A%2ATerimakasih%2A"
+                    href="https://wa.me/6289696006006?text=%2ANama%3A%2A%0A%2ADomisili%3A%2A%0A%2ANo%20Hp%20Aktif%3A%2A%0A%2AMerk%3A%2A%0A%2AType%3A%2A%0A%2ATahun%3A%2A%0A%2AMobil%2FMotor%3A%2A%0A%2ATerimakasih%2A"
                   >
                     <Image
                       src={"/images/lpasuransi/Button_Penawaran.png"}
@@ -211,7 +211,7 @@ export default function Home() {
         )}
 
         <div className="grid grid-cols-12 gap-y-1 lg:gap-y-0  md:gap-x-[6px] mt-1 lg:mt-0">
-          <div className="h-full col-span-12 md:col-span-6 lg:col-span-3 bg-red-700 py-2 px-6">
+          <div className="h-full col-span-12 md:col-span-6 lg:col-span-3 bg-red-800 py-2 px-6">
             <p className="text-white font-extrabold text-md mt-6 lg:text-lg xl:text-2xl text-center">
               Total Loss Only (TLO)
             </p>
@@ -250,7 +250,7 @@ export default function Home() {
             <br />
           </div>
 
-          <div className="h-full col-span-12 md:col-span-6 lg:col-span-3 bg-red-700 py-2 px-6">
+          <div className="h-full col-span-12 md:col-span-6 lg:col-span-3 bg-red-800 py-2 px-6">
             <p className="text-white font-extrabold text-md mt-6 lg:text-lg xl:text-2xl text-center">Perluasan TLO +</p>
             <br />
             <p className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1">
@@ -322,7 +322,7 @@ export default function Home() {
             <br />
           </div>
 
-          <div className="h-full col-span-12 md:col-span-6 lg:col-span-3 bg-red-700 py-2 px-6">
+          <div className="h-full col-span-12 md:col-span-6 lg:col-span-3 bg-red-800 py-2 px-6">
             <p className="text-white font-extrabold text-md mt-6 lg:text-lg xl:text-2xl text-center">Perluasan LIMO</p>
             <br />
             <p className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1">
@@ -379,7 +379,7 @@ export default function Home() {
             <br />
           </div>
 
-          <div className="h-full col-span-12 md:col-span-6 lg:col-span-3 bg-red-700 py-2 px-6">
+          <div className="h-full col-span-12 md:col-span-6 lg:col-span-3 bg-red-800 py-2 px-6">
             <p className="text-white font-extrabold text-md mt-6 lg:text-lg xl:text-2xl text-center">
               Perluasan COMPRE +
             </p>
@@ -557,27 +557,35 @@ export default function Home() {
 
         {/* footer */}
         {windowWidth < 768 && (
-          <footer className="w-full h-auto bg-slate-200 grid grid-cols-12 px-8 py-4">
+          <footer className="w-full h-auto bg-slate-200 grid grid-cols-12 px-3 gap-x-1 py-4">
             <div className="h-full col-span-4 flex items-center">
+              <Image
+                src={"/images/lpasuransi/footer/Footer_Sahabat.png"}
+                alt="illustrasi-1"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: windowWidth < 640 ? "90%" : "90%", height: "auto" }}
+              />
+            </div>
+            <div className="h-full col-span-4 flex items-center justify-center">
               <Image
                 src={"/images/lpasuransi/footer/Footer_Reliance.png"}
                 alt="illustrasi-1"
                 width={0}
                 height={0}
                 sizes="100vw"
-                style={{ width: windowWidth < 640 ? "100%" : "90%", height: "auto" }}
+                style={{ width: windowWidth < 640 ? "90%" : "90%", height: "auto" }}
               />
             </div>
-            <div className="h-auto col-span-1"></div>
-            <div className="h-full flex items-center col-span-5">
+            <div className="h-full flex items-center justify-end col-span-4">
               <Image
                 src={"/images/lpasuransi/footer/Footer_Sinarmas.png"}
                 alt="illustrasi-1"
                 width={0}
                 height={0}
                 sizes="100vw"
-                style={{ width: windowWidth < 640 ? "100%" : "90%", height: "auto" }}
-                className="ml-6"
+                style={{ width: windowWidth < 640 ? "90%" : "90%", height: "auto" }}
               />
             </div>
           </footer>
