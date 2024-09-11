@@ -100,8 +100,8 @@ export default function Home() {
                 alignItems: "center",
               }}
             >
-              <p className="text-[7vw] font-bold text-red-700 -ml-11 -mt-5">Rp</p>
-              <p className="text-[8.5vw] font-bold text-red-700">50.000-an</p>
+              <p className="text-[3.9vw] font-bold text-red-700 -ml-12 -mt-5">Rp</p>
+              <p className="text-[8.4vw] font-bold text-red-700">150.000-an</p>
             </motion.div>
             <div className="h-auto w-[37vw] sm:w-[240px] md:w-[280px] left-[10px] top-[23vw] fixed z-10">
               <a
@@ -163,8 +163,8 @@ export default function Home() {
                     alignItems: "center",
                   }}
                 >
-                  <p className="text-[4vw] font-bold text-red-700 -ml-11 -mt-5">Rp</p>
-                  <p className="text-[5.5vw] font-bold text-red-700">50.000-an</p>
+                  <p className="text-[3.9vw] font-bold text-red-700 -ml-12 -mt-5">Rp</p>
+                  <p className="text-[5.4vw] font-bold text-red-700">150.000-an</p>
                 </motion.div>
                 <div className="h-auto w-[37vw] sm:w-[240px] md:w-[280px] left-[30px] top-[23vw] fixed z-10">
                   <a
