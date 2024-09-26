@@ -14,7 +14,24 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-CF614JDH0W" /> */}
+        <meta
+          name="description"
+          content="Temukan solusi asuransi terbaik untuk melindungi keuangan Anda. Pilih dari berbagai produk asuransi yang sesuai dengan kebutuhan Anda, termasuk asuransi kesehatan, jiwa, dan kendaraan."
+        />
+        <meta
+          name="keywords"
+          content="asuransi, perlindungan keuangan, asuransi kesehatan, asuransi jiwa, asuransi mobil, asuransi properti, polis asuransi"
+        />
+        <meta name="author" content="PT Wahana Kalyana Mitramahardika" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="Asuransi Terpercaya - Perlindungan Keuangan Anda" />
+        <meta
+          property="og:description"
+          content="Dapatkan perlindungan finansial terbaik dengan produk asuransi kami. Mulai dari asuransi kesehatan hingga asuransi jiwa."
+        />
+        <meta property="og:url" content="www.asuransianda.com" /> {/* Ganti dengan URL website Anda */}
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Asuransi Anda" />
         <script
           dangerouslySetInnerHTML={{
             __html: `window.dataLayer = window.dataLayer || [];
