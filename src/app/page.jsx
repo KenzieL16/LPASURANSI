@@ -23,10 +23,7 @@ export default function Home() {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
     };
-
     window.addEventListener("resize", handleResize);
-
-    // Cleanup event listener on unmount
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
