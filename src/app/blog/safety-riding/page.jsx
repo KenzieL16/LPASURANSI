@@ -114,34 +114,34 @@ export default function Page() {
                 Intip Keunggulan <strong className="underline">Honda Beat Street 2024</strong> Sebelum Membeli
               </p>
 
-              <div className="flex pl-6 mt-2">
+              <div className="flex pl-1 md:pl-6 mt-2">
                 <p className="font-bold text-lg">•</p>
-                <p className="ml-3 text-md">
+                <p className="ml-1 md:ml-3 text-md">
                   <strong className="font-bold">Tampilan Menawan </strong>:{" "}
                   <span className="underline">Honda Beat Street 2024</span> memiliki desain fresh dengan stang telanjang
                   yang memberikan kesan gagah dan posisinya yang lebih tinggi serta lebar.
                 </p>
               </div>
-              <div className="flex pl-6 mt-2">
+              <div className="flex pl-1 md:pl-6 mt-2">
                 <p className="font-bold text-lg">•</p>
-                <p className="ml-3 text-md">
+                <p className="ml-1 md:ml-3 text-md">
                   <strong className="font-bold">Ukuran Roda Berbeda </strong>:{" "}
                   <span className="underline">Honda Beat Street 2024</span> memiliki desain fresh dengan stang telanjang
                   yang memberikan kesan gagah dan posisinya yang lebih tinggi serta lebar.
                 </p>
               </div>
-              <div className="flex pl-6 mt-2">
+              <div className="flex pl-1 md:pl-6 mt-2">
                 <p className="font-bold text-lg">•</p>
-                <p className="ml-3 text-md">
+                <p className="ml-1 md:ml-3 text-md">
                   <strong className="font-bold">Super Irit </strong>:{" "}
                   <span className="underline">Honda Beat Street 2024</span> menggunakan Mesin 110 cc SOHC dan sistem
                   pembakaran injeksi PGM-FI eSP membuat konsumsi bahan bakar sangat efisien, mencapai 60.6 km/liter, dan
                   mampu menempuh jarak 254,52 km per pengisian.
                 </p>
               </div>
-              <div className="flex pl-6 mt-2">
+              <div className="flex pl-1 md:pl-6 mt-2">
                 <p className="font-bold text-lg">•</p>
-                <p className="ml-3 text-md">
+                <p className="ml-1 md:ml-3 text-md">
                   <strong className="font-bold">Handling Lincah </strong>:{" "}
                   <span className="underline">Honda Beat Street 2024</span> Menyediakan kenyamanan berkendara dengan
                   handling responsif dan dinamis, ideal untuk jalanan perkotaan yang padat..
