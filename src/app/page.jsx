@@ -248,7 +248,9 @@ export default function Home() {
           </div>
 
           <div className="h-full col-span-12 md:col-span-6 lg:col-span-3 bg-red-800 py-2 px-6">
-            <p className="text-white font-extrabold text-md mt-6 lg:text-lg xl:text-2xl text-center">Perluasan TLO +</p>
+            <p className="text-white font-extrabold text-md mt-6 lg:text-lg xl:text-2xl text-center">
+              TLO + Perluasan A
+            </p>
             <br />
             <p className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1">
               Memberikan Jaminan terhadap kerugian apabila kendaraan yang dipertanggungkan mengalami kerugian total
@@ -320,7 +322,9 @@ export default function Home() {
           </div>
 
           <div className="h-full col-span-12 md:col-span-6 lg:col-span-3 bg-red-800 py-2 px-6">
-            <p className="text-white font-extrabold text-md mt-6 lg:text-lg xl:text-2xl text-center">Perluasan LIMO</p>
+            <p className="text-white font-extrabold text-md mt-6 lg:text-lg xl:text-2xl text-center">
+              TLO + Perluasan B
+            </p>
             <br />
             <p className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1">
               Memberikan Jaminan terhadap kerugian apabila kendaraan yang dipertanggungkan mengalami kerugian total
@@ -462,10 +466,10 @@ export default function Home() {
 
         <hr />
 
-        {/* <div className="h-auto bg-slate-400 pb-7 relative">
+        <div className="h-auto bg-slate-400 pb-7 relative">
           <br />
           <SwiperBeritaComponent sWidth={windowWidth} />
-        </div> */}
+        </div>
 
         <div className="w-full bg-red-700 h-auto pt-4 pb-8 mt-[2px] lg:mt-0">
           <p className="text-center text-lg text-white font-bold">Hitung Premi</p>
