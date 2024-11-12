@@ -34,12 +34,12 @@ export default function SwiperBeritaComponent({ sWidth }) {
     {
       title: "Mitos Atau Fakta, Ban Motor Kempes Bisa Bikin Boros Bensin?",
       image: "Ban Motor.png",
-      url: "",
+      url: "https://www.wahanahonda.com/blog/mitos-atau-fakta-ban-motor-kempes-bisa-bikin-boros-bensin",
     },
     {
       title: "Cara Mudah Mereset Indikator Oli Berkedip",
       image: "Indikator Motor.png",
-      url: "",
+      url: "https://www.wahanahonda.com/blog/cara-mudah-mereset-indikator-oli-berkedip",
     },
   ];
   return (
@@ -62,7 +62,10 @@ export default function SwiperBeritaComponent({ sWidth }) {
         {news.map((value, index) => {
           return (
             <SwiperSlide key={value + " " + index}>
-              <a className="h-auto flex items-center justify-center cursor-pointer" href={"blog/" + value.url}>
+              <a
+                className="h-auto flex items-center justify-center cursor-pointer"
+                href={value.url.startsWith("http") ? value.url : "blog/" + value.url}
+              >
                 <div className="h-[35vw] sm:h-[270px] md:h-[300px] xl:h-[320px] w-full bg-cyan-50 p-1 lg:p-2 rounded-md flex flex-col justify-between">
                   <div className="w-full">
                     <div className="w-full aspect-video bg-red-400 rounded-md">
