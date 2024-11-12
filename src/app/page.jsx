@@ -471,7 +471,8 @@ export default function Home() {
           <SwiperBeritaComponent sWidth={windowWidth} />
         </div>
 
-        <div className="w-full bg-red-700 h-auto pt-4 pb-8 mt-[2px] lg:mt-0">
+        {/* komentar sementara */}
+        {/* <div className="w-full bg-red-700 h-auto pt-4 pb-8 mt-[2px] lg:mt-0">
           <p className="text-center text-lg text-white font-bold">Hitung Premi</p>
           <div className="w-10/12 mx-auto">
             <div className="grid grid-cols-12 mt-2 md:gap-x-4">
@@ -544,7 +545,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="w-full">
           <br />
