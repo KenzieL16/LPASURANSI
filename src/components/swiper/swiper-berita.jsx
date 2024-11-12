@@ -31,6 +31,16 @@ export default function SwiperBeritaComponent({ sWidth }) {
       image: "Safety Riding Cara Aman Rem Di Tanjakan.jpg",
       url: "safety-riding",
     },
+    {
+      title: "Mitos Atau Fakta, Ban Motor Kempes Bisa Bikin Boros Bensin?",
+      image: "Ban Motor.png",
+      url: "",
+    },
+    {
+      title: "Cara Mudah Mereset Indikator Oli Berkedip",
+      image: "Indikator Motor.png",
+      url: "",
+    },
   ];
   return (
     <>
