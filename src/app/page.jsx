@@ -135,8 +135,8 @@ export default function Home() {
                 </p>
                 <p className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1">
                   Asuransi motor memberikan kamu perlindungan maksimal dengan premi yang minimal. Tersedia pilihan yang
-                  beragam sesuai kebutuhan dan gaya hidupmu, mulai dari TLO, LiMo, dan Compre. Masing - masing asuransi
-                  motor didukung dengan manfaat yang dirancang menanggung yang terpenting dalam berkendara
+                  beragam sesuai kebutuhan dan gaya hidupmu, mulai dari TLO, TLO+Perluasan, dan Compre. Masing - masing
+                  asuransi motor didukung dengan manfaat yang dirancang menanggung yang terpenting dalam berkendara
                 </p>
               </div>
               <div className="col-span-9 bg-white relative">
@@ -200,8 +200,8 @@ export default function Home() {
               </p>
               <p className="text-white text-justify text-[2.3vw] ">
                 Asuransi motor memberikan kamu perlindungan maksimal dengan premi yang minimal. Tersedia pilihan yang
-                beragam sesuai kebutuhan dan gaya hidupmu, mulai dari TLO, LiMo, dan Compre. Masing - masing asuransi
-                motor didukung dengan manfaat yang dirancang menanggung yang terpenting dalam berkendara
+                beragam sesuai kebutuhan dan gaya hidupmu, mulai dari TLO, TLO+Perluasan, dan Compre. Masing - masing
+                asuransi motor didukung dengan manfaat yang dirancang menanggung yang terpenting dalam berkendara
               </p>
             </div>
           </div>
@@ -498,7 +498,7 @@ export default function Home() {
                       TLO+
                     </option>
                     <option className="cursor-pointer" value={3.2}>
-                      LiMo
+                      TLO+Perluasan
                     </option>
                     <option className="cursor-pointer" value={3.5}>
                       LiMo+
