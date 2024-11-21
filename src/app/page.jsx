@@ -314,7 +314,7 @@ export default function Home() {
             <br />
 
             <p className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1">
-              Dengan Resiko Sendiri 10% dan 90% dibayarkan ke konsumen. Berlaku selama 1 tahun (Sampai dengan masa
+              Dengan Resiko Sendiri 10% dan 90% dibayarkan ke peserta. Berlaku selama 1 tahun (Sampai dengan masa
               berakhirnya polis).
             </p>
 
@@ -361,7 +361,7 @@ export default function Home() {
               </p>
               <p>
                 Kerusakan karena Kecelakaan dan kebakaran dengan nilai kerusakan diatas 50% dari harga pasar sepeda
-                motor. Penggantiannya berupa sejumlah uang yang akan di transfer ke rekening Bpk/Ibu.
+                motor.
               </p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
@@ -373,7 +373,7 @@ export default function Home() {
             <br />
 
             <p className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1">
-              Dengan Resiko Sendiri 10% dan 90% dibayarkan ke konsumen. Berlaku selama 1 tahun (Sampai dengan masa
+              Dengan Resiko Sendiri 10% dan 90% dibayarkan ke peserta. Berlaku selama 1 tahun (Sampai dengan masa
               berakhirnya polis).
             </p>
 
