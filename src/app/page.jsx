@@ -215,34 +215,28 @@ export default function Home() {
             <br />
             <p className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1">
               Memberikan Jaminan terhadap kerugian apabila kendaraan yang dipertanggungkan mengalami kerugian total
-              sebagai akibat dari:
+              sebagai akibat:
             </p>
             <br />
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
               <p>Pencurian, perampasan, penodongan atas unit sepeda motor.</p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
-              <p>Kecelakaan atau kebakaran dengan nilai kerusakan diatas 75% dari harga pasar sepeda motor.</p>
+              <p>Kecelakaan atau kebakaran dengan nilai kerusakan diatas 75%</p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
               <p>
                 Untuk penggantian TLO adalah Market Price (harga pasar) saat terjadinya kehilangan (harga motor second).
               </p>
-            </div>
-            <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
-              <p>
-                <strong>•</strong>
-              </p>
-              <p>Untuk penggantinya adalah 90% dikembalikan dan 10% resiko sendiri.</p>
             </div>
             <br />
           </div>
@@ -259,65 +253,65 @@ export default function Home() {
             <br />
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
               <p>Pencurian, perampasan, penodongan atas unit sepeda motor.</p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
               <p>Hipnotis/Penipuan</p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
+              </p>
+              <p>Penggelapan</p>
+            </div>
+            <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
+              <p>
+                <strong className="text-2xl">•</strong>
               </p>
               <p>Kerusuhan/Huru-hara</p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
               <p>Terorisme Sabotase</p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
               <p>Musibah Banjir, Angin Topan & Tanah Longsor</p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
               <p>Bencana Alam Gempa Bumi, Tsunami </p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
-              <p>Kerusakan karena Kecelakaan dengan nilai kerusakan diatas 50% dari harga pasar sepeda motor. </p>
+              <p>Kerusakan karena Kecelakaan dengan nilai kerusakan diatas 50% </p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
               <p>Penggunaan Komersial Ojek </p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
-              <p>Penggantian New For Old adalah penggantian harga sesuai dengan nilai polis. </p>
+              <p>Penggantian New For Old </p>
             </div>
             <br />
-
-            <p className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1">
-              Dengan Resiko Sendiri 10% dan 90% dibayarkan ke peserta. Berlaku selama 1 tahun (Sampai dengan masa
-              berakhirnya polis).
-            </p>
-
             <br />
           </div>
 
@@ -333,50 +327,40 @@ export default function Home() {
             <br />
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
               <p>Pencurian, perampasan, penodongan atas unit sepeda motor.</p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
               <p>Hipnotis/Penipuan</p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
               <p>Kerusuhan/Huru-hara</p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
               <p>Terorisme Sabotase</p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
-              <p>
-                Kerusakan karena Kecelakaan dan kebakaran dengan nilai kerusakan diatas 50% dari harga pasar sepeda
-                motor.
-              </p>
+              <p>Kerusakan karena Kecelakaan dan kebakaran dengan nilai kerusakan diatas 50%</p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
-              <p>Penggantian New For Old adalah penggantian harga sesuai dengan nilai polis</p>
+              <p>Penggantian New For Old</p>
             </div>
-            <br />
-
-            <p className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1">
-              Dengan Resiko Sendiri 10% dan 90% dibayarkan ke peserta. Berlaku selama 1 tahun (Sampai dengan masa
-              berakhirnya polis).
-            </p>
-
             <br />
           </div>
 
@@ -392,74 +376,71 @@ export default function Home() {
             <br />
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
               <p>Pencurian, perampasan, penodongan atas unit sepeda motor.</p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
               <p>Hipnotis/Penipuan</p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
-              <p>Kerusuhan/Huru-hara.</p>
+              <p>Penggelapan</p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
+              </p>
+              <p>RSCC Kerusuhan/Huru-hara.</p>
+            </div>
+            <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
+              <p>
+                <strong className="text-2xl">•</strong>
               </p>
               <p>Terorisme Sabotase.</p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
               <p>Musibah Banjir, Angin Topan & Tanah Longsor.</p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
               <p>Bencana Alam Gempa Bumi, Tsunami.</p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
-              <p>Kerusakan karena Kecelakaan dengan nilai kerusakan diatas 50% dari harga pasar sepeda motor.</p>
+              <p>Kerusakan karena Kecelakaan dengan nilai kerusakan diatas 50%.</p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
               <p>Penggunaan Komersial Ojek.</p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
-              <p>
-                Penggantian New For Old adalah penggantian harga sesuai dengan nilai polis. Dengan Resiko Sendiri 10%
-                dan 90% dibayarkan ke konsumen. Berlaku selama 1 tahun (Sampai dengan masa berakhirnya polis).
-              </p>
+              <p>Penggantian New For Old.</p>
             </div>
             <div className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1 flex gap-x-2">
               <p>
-                <strong>•</strong>
+                <strong className="text-2xl">•</strong>
               </p>
-              <p>Partial Loss ( All Risk )</p>
+              <p>Partial Loss ( All Risk ).</p>
             </div>
             <br />
-
-            <p className="text-white text-left text-xs xl:text-[16px] xl:leading-6 xl:mt-1">
-              Untuk ALL Risk Parsial Loss apabila Motor dibawah harga 30 Jt Rp 500.000,- Untuk ALL Risk Parsial Loss
-              apabila Motor diatas harga 30 Jt Rp 1.000.000,- .
-            </p>
-
             <br />
           </div>
         </div>
