@@ -1,6 +1,6 @@
 const data = [
   {
-    question: "Proses pengiriman polis jadinya berapa lama?",
+    question: "Proses pengiriman polis jadinya berapa lama? kenzie",
     answer:
       "Untuk polis akan dikirimkan paling lambat 7-14 hari kerja. Apabila Bapak/Ibu belum menerima polis sampai dengan 14 hari kerja dapat menghubungi kami kembali.",
   },
