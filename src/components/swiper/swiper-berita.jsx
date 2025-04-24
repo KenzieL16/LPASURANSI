@@ -41,6 +41,16 @@ export default function SwiperBeritaComponent({ sWidth }) {
       image: "Indikator Motor.png",
       url: "https://www.wahanahonda.com/blog/cara-mudah-mereset-indikator-oli-berkedip",
     },
+    {
+      title: "Lindungi Motor Kesayangan Anda Hanya Dengan Rp 150.000",
+      image: "Lindungi Motor Kesayangan Anda Hanya Dengan Rp 150.jpg",
+      url: "Lindungi-Motor-Kesayangan-Anda-Hanya-Dengan-Rp150.000",
+    },
+    {
+      title: "Kenapa Asuransi Motor Itu Penting",
+      image: "Kenapa Asuransi Motor Itu Penting.jpg",
+      url: "Kenapa-Asuransi-Motor-Itu-Penting",
+    },
   ];
   return (
     <>
